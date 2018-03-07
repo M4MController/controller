@@ -1,0 +1,24 @@
+{
+  "name": "m4m-controller",
+  "version": "0.0.1",
+  "description": "1. Install [libmbus](https://github.com/samkrew/libmbus) ```bash # download libmbus git clone https://github.com/samkrew/libmbus",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "cd meter && cmake CMakeLists.txt && make",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4MController/controller.git"
+  },
+  "author": "M4M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M4MController/controller/issues"
+  },
+  "homepage": "https://github.com/M4MController/controller#readme",
+  "dependencies": {
+    "shelljs": "^0.8.1"
+  }
+}

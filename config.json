@@ -1,0 +1,11 @@
+{
+  "controller": {
+    "mac": "my_mac"
+  },
+  "device": "/dev/ttyACM0",
+  "server": {
+    "host": "192.168.1.39",
+    "prefix": "",
+    "port": "5000"
+  }
+}

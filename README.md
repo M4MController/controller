@@ -24,11 +24,10 @@ sudo ln -s /usr/local/lib/libmbus.so.0 /usr/lib/libmbus.so.0
 
 2. Build the app
 ```bash
-cmake CMakeLists.txt
-make
+npm i
 ```
 
 3. Run
 ```bash
-./m4m_controller
+npm start
 ```
