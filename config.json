@@ -1,11 +1,10 @@
 {
   "controller": {
-    "mac": "my_mac"
+    "mac": "CF-64-93-81-CA-EC"
   },
   "device": "/dev/ttyACM0",
   "server": {
-    "host": "192.168.1.39",
-    "prefix": "",
-    "port": "5000"
+    "host": "https://receiver.meter4.me",
+    "prefix": ""
   }
 }
