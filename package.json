@@ -21,6 +21,7 @@
   "dependencies": {
     "argparse": "^1.0.10",
     "node-fetch": "^2.3.0",
+    "pg": "^8.0.0",
     "shelljs": "^0.8.1"
   }
 }

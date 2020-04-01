@@ -15,6 +15,7 @@ ADD meter ./meter
 RUN cd meter && cmake CMakeLists.txt && make && npm install
 
 ADD config.json .
+ADD database.js .
 ADD index.js .
 
-CMD npm start -- --sensor-id $SENSOR_ID --interval $INTERVAL --device $DEVICE
+CMD npm start -- --interval $INTERVAL --device $DEVICE --db-uri $DB_URI
