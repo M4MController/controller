@@ -20,6 +20,7 @@ class Meter {
         })();
 
         if (code !== 0) throw stderr;
+        console.log("STDOUT:", stdout);
         return JSON.parse(stdout)['MBusData']['DataRecords'][0];
     }
 }
