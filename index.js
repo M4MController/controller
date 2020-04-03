@@ -52,7 +52,7 @@ const main = async function() {
     try {
       data = meter.get(1); // mbus sensor id = 1
     } catch (e) {
-      console.error('Can not read value');
+      console.error('Can not read value', e);
     }
     if (data && data['Value']) {
       const value = data['Value'];
